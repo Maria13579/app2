@@ -22,11 +22,7 @@
     
     if($estado)
     {
-        if($usuario == 'administrador' &&  $password = '456'){
             header('location:inventario.php'); 
-        }else{
-            header('location:ventas.php');  
-        }     
     }
     else
     {
