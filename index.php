@@ -9,7 +9,7 @@
 
  </head>
  <body>
- <div class="card-panel teal lighten-2 "><h1 class="center-align">Por favor Inicie Sesion o Registrese</h1> </div>
+ <div class="card-panel teal lighten-2 "><h1 class="center-align">Por favor Inicie Sesion </h1> </div>
 
  <div class = "center">
       <a  class ="center-classsffect waves-light btn " href= "inicio.php">Inicie Sesion</a> 
