@@ -2,7 +2,7 @@
 
     $user=[
             ['user'=>'maria','pass'=>'123'],
-            ['user'=>'lineli','pass'=>'456'],
+            ['user'=>'administrador','pass'=>'456'],
             ['user'=>'natalia','pass'=>'789']
         ];
     $usuario=$_POST['user'];
@@ -18,40 +18,21 @@
             $cont++;    
         } 
     }
+
     
     if($estado)
     {
-        header('location:ventas.php');        
+        if($usuario == 'administrador' &&  $password = '456'){
+            header('location:inventario.php'); 
+        }else{
+            header('location:ventas.php');  
+        }     
     }
     else
     {
         header('location:index.php');   
     }
 
-    $admin=[
-        ['admin'=>'administrador','contra'=>'456'],
-    ];
-    $usuario=$_POST['admin'];
-    $password=$_POST['contra'];
-    $estado=false;
-    $cont=0;
-        
-    foreach($user as $u)
-    {
-        if($u['admin']=='usuario'&& $u['contra']=='password')   
-        {
-            $estado=true;
-            $cont++;    
-        } 
-    }
-    
-    if($estado)
-    {
-        header('location:inventario.php');        
-    }
-    else
-    {
-        header('location:index.php');   
-    }
+
     
 ?>

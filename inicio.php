@@ -18,6 +18,7 @@
                             <input class ="left" type="text" name="user" placeholder="Ingrese su Usuario">   
                             <br/><br/>
                             <input type="password" name="pass" placeholder="Ingrese su Contraseña">
+
                             <br/><br/>
                             <input class="waves-effect waves-light btn " type= "submit" value="Ingresar">
                         </form>
