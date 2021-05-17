@@ -37,7 +37,7 @@
             <input type = "text" name = "precio[]" />
             <br/><br/>
             <label>Digite la cantidad de productos<label>
-            <input type = "text" name = "cant[]"/>
+            <input type = "text" name = "cant[]"/>   <input type = "text" name = "cant[]"/>
             <br/><br/><br/><br/>
             <?php } ?>
         <?php } ?>
