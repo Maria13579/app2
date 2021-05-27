@@ -2,7 +2,7 @@
 
     $user=[
             ['user'=>'maria','pass'=>'123'],
-            ['user'=>'administrador','pass'=>'456'],
+            ['user'=>'lineli','pass'=>'456'],
             ['user'=>'natalia','pass'=>'789']
         ];
     $usuario=$_POST['user'];
@@ -22,7 +22,7 @@
     
     if($estado)
     {
-            header('location:inventario.php'); 
+        header('location:inventario.php'); 
     }
     else
     {
